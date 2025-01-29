@@ -1,0 +1,523 @@
+[main]
+author = Mashironn
+atlas = textures\DigidashColorful.ini
+description = Digidash Port
+autohidewhennodamage = false
+autohidetime = 5.000000
+type = simple
+
+[digidash_background.png_0_3_837]
+type = Static
+mode = 0
+xpos = 0.000000
+ypos = 3.099999
+scale = 1.000000
+rotation = 0.000000
+colour = adeaeaea
+texture = Digidash_Background.png
+
+[digidash_label.png_0_0_528]
+type = Static
+mode = 0
+xpos = 0.000000
+ypos = 0.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Digidash_Label.png
+
+[shift.png_83_10_989]
+type = Static
+mode = 0
+xpos = 83.900230
+ypos = 10.699987
+scale = 1.000000
+rotation = 0.000000
+colour = 73000000
+texture = Shift.png
+
+[shift.png_210_10_782]
+type = Static
+mode = 0
+xpos = 210.000000
+ypos = 10.000000
+scale = 1.000000
+rotation = 0.000000
+colour = 73000000
+texture = Shift.png
+
+[water.png_108_250_498]
+type = Static
+mode = 0
+xpos = 108.000000
+ypos = 250.000000
+scale = 1.000000
+rotation = 0.000000
+colour = fc464646
+texture = Water.png
+
+[brakesystem.png_130_258_740]
+type = Static
+mode = 0
+xpos = 130.000000
+ypos = 258.000000
+scale = 1.000000
+rotation = 0.000000
+colour = fc464646
+texture = BrakeSystem.png
+
+[oil.png_160_258_804]
+type = Static
+mode = 0
+xpos = 160.000000
+ypos = 258.000000
+scale = 1.000000
+rotation = 0.000000
+colour = fc464646
+texture = Oil.png
+
+[battery.png_195_260_742]
+type = Static
+mode = 0
+xpos = 195.000000
+ypos = 260.000000
+scale = 1.000000
+rotation = 0.000000
+colour = fc464646
+texture = Battery.png
+
+[engine.png_231_262_719]
+type = Static
+mode = 0
+xpos = 231.000000
+ypos = 262.000000
+scale = 1.000000
+rotation = 0.000000
+colour = fc464646
+texture = Engine.png
+
+[digital_distancetofinish_195_200_823]
+type = Number
+data = DistanceToFinish
+mode = 0
+xpos = 195.000000
+ypos = 200.000000
+scale = 0.750000
+rotation = 0.000000
+colour = ffdb7a00
+font = Digital
+format = Decimal1
+justification = Right
+prefixenabled = false
+suffixenabled = false
+
+[digital_distancedriven_195_160_64]
+type = Number
+data = DistanceDriven
+mode = 0
+xpos = 195.000000
+ypos = 160.000000
+scale = 0.750000
+rotation = 0.000000
+colour = ffdb7a00
+font = Digital
+format = Decimal1
+justification = Right
+prefixenabled = false
+suffixenabled = false
+
+[digital_coolanttemperaturec_335_158_108]
+type = Number
+data = CoolantTemperatureC
+mode = 0
+xpos = 335.000000
+ypos = 158.000000
+scale = 0.650000
+rotation = 0.000000
+colour = ffdb7a00
+font = Digital
+format = Padded3
+justification = Center
+prefixenabled = false
+suffixenabled = false
+
+[digital_speedkph_335_212_447]
+type = Number
+data = SpeedKPH
+mode = 0
+xpos = 335.000000
+ypos = 212.000000
+scale = 0.650000
+rotation = 0.000000
+colour = ffdb7a00
+font = Digital
+format = Padded3
+justification = Center
+prefixenabled = false
+suffixenabled = false
+
+[n.png_gear_243_146_483]
+type = Simple
+data = Gear
+mode = 0
+xpos = 243.199951
+ypos = 146.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = N.png
+equal = 1
+
+[r.png_gear_243_139_433]
+type = Simple
+data = Gear
+mode = 0
+xpos = 243.300262
+ypos = 139.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = R.png
+equal = 0
+
+[1.png_gear_288_146_108]
+type = Simple
+data = Gear
+mode = 0
+xpos = 288.200012
+ypos = 146.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 1.png
+equal = 2
+
+[2.png_gear_243_139_452]
+type = Simple
+data = Gear
+mode = 0
+xpos = 243.300003
+ypos = 139.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 2.png
+equal = 3
+
+[3.png_gear_248_139_964]
+type = Simple
+data = Gear
+mode = 0
+xpos = 248.300003
+ypos = 139.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 3.png
+equal = 4
+
+[4.png_gear_243_146_306]
+type = Simple
+data = Gear
+mode = 0
+xpos = 243.300003
+ypos = 146.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 4.png
+equal = 5
+
+[5.png_gear_243_139_414]
+type = Simple
+data = Gear
+mode = 0
+xpos = 243.300003
+ypos = 139.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 5.png
+equal = 6
+
+[6.png_gear_243_139_395]
+type = Simple
+data = Gear
+mode = 0
+xpos = 243.300003
+ypos = 139.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 6.png
+equal = 7
+
+[water.png_coolanttemperaturewarning_108_250_695]
+type = Simple
+data = CoolantTemperatureWarning
+mode = 0
+xpos = 108.000000
+ypos = 250.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffdb0000
+texture = Water.png
+
+[oil.png_oiltemperaturewarning_160_258_779]
+type = Simple
+data = OilTemperatureWarning
+mode = 0
+xpos = 160.300003
+ypos = 258.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffdb0000
+texture = Oil.png
+
+[brakesystem.png_handbrakeon_130_258_203]
+type = Simple
+data = HandbrakeOn
+mode = 0
+xpos = 130.300003
+ypos = 258.299988
+scale = 1.000000
+rotation = 0.000000
+colour = ffdb0000
+texture = BrakeSystem.png
+
+[battery.png_batterylevelwarning_194_259_970]
+type = Simple
+data = BatteryLevelWarning
+mode = 0
+xpos = 194.500000
+ypos = 259.500000
+scale = 1.000000
+rotation = 0.000000
+colour = ffdb0000
+texture = Battery.png
+
+[engine.png_engineoff_231_262_217]
+type = Simple
+data = EngineOff
+mode = 0
+xpos = 231.000000
+ypos = 262.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffdb0000
+texture = Engine.png
+
+[digidash_rpm2.png_rpm_32_53_154]
+type = Pie
+data = RPM
+mode = 0
+xpos = 32.000000
+ypos = 53.000000
+scale = 1.000000
+rotation = 239.000000
+colour = ffffffff
+texture = Digidash_RPM2.png
+rotation0deg = -42.000000
+rotation0value = 0.000000
+rotation1deg = 239.000000
+rotation1value = 9500.000000
+
+[digidash_rpm1.png_rpm_32_132_169]
+type = Expanding
+data = RPM
+mode = 0
+xpos = 32.000000
+ypos = 132.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Digidash_RPM1.png
+expandmap0value = 0.000000
+expandmap0expand = 0.000000
+expandmap1value = 3500.000000
+expandmap1expand = 1.000000
+direction = up
+
+[digidash_rpm3.png_rpm_148_54_104]
+type = Expanding
+data = RPM
+mode = 0
+xpos = 148.000000
+ypos = 54.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Digidash_RPM3.png
+expandmap0value = 5999.000000
+expandmap0expand = 0.000000
+expandmap1value = 9500.000000
+expandmap1expand = 1.000000
+direction = right
+
+[turbobar.png_turbopressurepsi_183_109_930]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 183.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 5.400000
+
+[turbobar.png_turbopressurepsi_207_109_664]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 207.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 10.800000
+
+[turbobar.png_turbopressurepsi_232_109_54]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 232.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 16.200001
+
+[turbobar.png_turbopressurepsi_256_109_418]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 256.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 21.600000
+
+[turbobar.png_turbopressurepsi_280_109_151]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 280.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 27.000000
+
+[turbobar.png_turbopressurepsi_304_109_647]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 304.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 32.400002
+
+[turbobar.png_turbopressurepsi_328_109_993]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 328.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 37.799999
+
+[turbobar.png_turbopressurepsi_351_109_212]
+type = Simple
+data = TurboPressurePsi
+mode = 0
+xpos = 351.000000
+ypos = 109.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = TurboBar.png
+threshold = 43.200001
+
+[shift.png_upshift_83_10_306]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 83.000000
+ypos = 10.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ff00ff00
+texture = Shift.png
+threshold = -1000.000000
+
+[shift.png_upshift_83_10_584]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 83.000000
+ypos = 10.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffff00
+texture = Shift.png
+threshold = -600.000000
+
+[shift.png_upshift_83_10_863]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 83.000000
+ypos = 10.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffff0000
+texture = Shift.png
+threshold = -200.000000
+
+[shift.png_upshift_210_10_150]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 210.000000
+ypos = 10.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ff00ff00
+texture = Shift.png
+threshold = -800.000000
+
+[shift.png_upshift_210_10_392]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 210.000000
+ypos = 10.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffff00
+texture = Shift.png
+threshold = -400.000000
+
+[shift.png_upshift_210_10_45]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 210.000000
+ypos = 10.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffff0000
+texture = Shift.png
+threshold = 0.000000

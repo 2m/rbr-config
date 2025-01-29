@@ -1,0 +1,273 @@
+[main]
+author = 
+atlas = textures\style0_replay_atlas.ini
+description = 
+autohidewhennodamage = false
+autohidetime = 5.000000
+type = simple
+
+[rpmhigh]
+type = Effect
+effecttype = ColourChange|Pulse|
+data = RPMPercent
+threshold = 95.000000
+newcolour = ffff0000
+pulsespeed = 150.000000
+
+[replaycenterframe_0_0_499]
+type = Static
+mode = 0
+xpos = 0.000000
+ypos = 0.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = ReplayCenterFrame
+
+[gearbackwhite_705_6_714]
+type = Static
+mode = 0
+xpos = 705.898987
+ypos = 6.800000
+scale = 1.000000
+rotation = 0.000000
+colour = 5b000000
+texture = GearBackWhite
+
+[gearbackwhite_upshift_705_6_18]
+type = Colour
+data = UpShift
+mode = 0
+xpos = 705.899048
+ypos = 6.799998
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = GearBackWhite
+value0 = -600.000000
+colour0 = ff32b400
+value1 = -400.000000
+colour1 = ff32b400
+value2 = -399.000000
+colour2 = ffff9b00
+value3 = -200.000000
+colour3 = ffff9b00
+value4 = -199.000000
+colour4 = ffc20000
+
+[r_gear_733_9_320]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = R
+equal = 0
+
+[n_gear_733_9_297]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = N
+equal = 1
+
+[1_gear_733_9_346]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 1
+equal = 2
+
+[2_gear_733_9_170]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 2
+equal = 3
+
+[3_gear_733_9_223]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 3
+equal = 4
+
+[4_gear_733_9_65]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 4
+equal = 5
+
+[5_gear_733_9_104]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 5
+equal = 6
+
+[6_gear_733_9_912]
+type = Simple
+data = Gear
+mode = 0
+xpos = 733.399902
+ypos = 9.799995
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = 6
+equal = 7
+
+[wheel_inputsteeringprocessed_560_61_376]
+type = Rotating
+data = InputSteeringProcessed
+mode = 0
+xpos = 560.698364
+ypos = 61.000000
+scale = 0.950000
+rotation = 180.000000
+colour = ffffffff
+texture = Wheel
+digital = 1
+rotation0deg = -180.000000
+rotation0value = -1.000000
+rotation1deg = 180.000000
+rotation1value = 1.000000
+
+[engineicon_639_16_816]
+type = Static
+mode = 0
+xpos = 639.000000
+ypos = 16.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = engineIcon
+
+[handbrakeicon_640_72_504]
+type = Static
+mode = 0
+xpos = 640.199463
+ypos = 72.699944
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = handbrakeIcon
+
+[handbrakeicon_handbrakeon_640_72_909]
+type = Simple
+data = HandbrakeOn
+mode = 0
+xpos = 640.000000
+ypos = 72.699997
+scale = 1.000000
+rotation = 0.000000
+colour = ff800111
+texture = handbrakeIcon
+
+[engineicon_engineoff_639_16_345]
+type = Simple
+data = EngineOff
+mode = 0
+xpos = 639.000000
+ypos = 16.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ff800000
+texture = engineIcon
+
+[bar_inputthrottleprocessed_1046_72_278]
+type = Expanding
+data = InputThrottleProcessed
+mode = 0
+xpos = 1046.500000
+ypos = 72.800049
+scale = 1.000000
+rotation = 0.000000
+colour = ff00ff00
+texture = Bar
+expandmap0value = 0.000000
+expandmap0expand = 0.000000
+expandmap1value = 1.000000
+expandmap1expand = 1.000000
+direction = right
+
+[bar_inputbrakeprocessed_3_72_502]
+type = Expanding
+data = InputBrakeProcessed
+mode = 0
+xpos = 3.400001
+ypos = 72.800018
+scale = 1.000000
+rotation = 0.000000
+colour = ffff0000
+texture = Bar
+expandmap0value = 0.000000
+expandmap0expand = 0.000000
+expandmap1value = 1.000000
+expandmap1expand = 1.000000
+direction = left
+
+[fontdigital7_speedkph_831_11_535]
+type = Number
+data = SpeedKPH
+mode = 0
+xpos = 831.000000
+ypos = 11.000000
+scale = 0.860000
+rotation = 0.000000
+colour = ffffffff
+font = FontDigital7
+format = Padded3
+justification = Left
+prefixenabled = false
+suffixenabled = false
+
+[fontdigital7_rpm_831_71_562]
+type = Number
+data = RPM
+mode = 0
+effect = rpmhigh
+xpos = 831.000000
+ypos = 71.699478
+scale = 0.860000
+rotation = 0.000000
+colour = ffffffff
+font = FontDigital7
+format = Padded4
+justification = Left
+prefixenabled = false
+suffixenabled = false

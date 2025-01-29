@@ -1,0 +1,195 @@
+[main]
+author = Mashironn
+atlas = textures\DigidashColorful.ini
+description = Digidash Port
+autohidewhennodamage = false
+autohidetime = 5.000000
+type = simple
+
+[shift.png_180_121_43]
+type = Static
+mode = 0
+xpos = 180.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = 73000000
+texture = Shift.png
+
+[shift.png_276_121_640]
+type = Static
+mode = 0
+xpos = 276.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = 73000000
+texture = Shift.png
+
+[n.png_gear_229_149_627]
+type = Simple
+data = Gear
+mode = 0
+xpos = 229.000000
+ypos = 149.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = N.png
+equal = 1
+
+[r.png_gear_229_139_658]
+type = Simple
+data = Gear
+mode = 0
+xpos = 229.000000
+ypos = 139.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = R.png
+equal = 0
+
+[1.png_gear_297_149_765]
+type = Simple
+data = Gear
+mode = 0
+xpos = 297.000000
+ypos = 149.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = 1.png
+equal = 2
+
+[2.png_gear_229_139_449]
+type = Simple
+data = Gear
+mode = 0
+xpos = 229.000000
+ypos = 139.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = 2.png
+equal = 3
+
+[3.png_gear_236_139_442]
+type = Simple
+data = Gear
+mode = 0
+xpos = 236.000000
+ypos = 139.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = 3.png
+equal = 4
+
+[4.png_gear_229_149_976]
+type = Simple
+data = Gear
+mode = 0
+xpos = 229.000000
+ypos = 149.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = 4.png
+equal = 5
+
+[5.png_gear_229_139_612]
+type = Simple
+data = Gear
+mode = 0
+xpos = 229.000000
+ypos = 139.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = 5.png
+equal = 6
+
+[6.png_gear_229_139_272]
+type = Simple
+data = Gear
+mode = 0
+xpos = 229.000000
+ypos = 139.000000
+scale = 1.500000
+rotation = 0.000000
+colour = ffffffff
+texture = 6.png
+equal = 7
+
+[shift.png_upshift_180_121_414]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 180.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ff00ff00
+texture = Shift.png
+threshold = -1000.000000
+
+[shift.png_upshift_180_121_619]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 180.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffff00
+texture = Shift.png
+threshold = -600.000000
+
+[shift.png_upshift_180_121_600]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 180.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffff0000
+texture = Shift.png
+threshold = -200.000000
+
+[shift.png_upshift_276_121_343]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 276.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ff00ff00
+texture = Shift.png
+threshold = -800.000000
+
+[shift.png_upshift_276_121_469]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 276.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffff00
+texture = Shift.png
+threshold = -400.000000
+
+[shift.png_upshift_276_121_971]
+type = Simple
+data = UpShift
+mode = 0
+xpos = 276.000000
+ypos = 121.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffff0000
+texture = Shift.png
+threshold = 0.000000

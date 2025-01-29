@@ -1,0 +1,522 @@
+[main]
+author = Towerbrah
+atlas = textures/DefaultStyleAtlas.ini
+description = Digidash with RPM, Speed and Coolant Temp
+autohidewhennodamage = false
+autohidetime = 5.000000
+type = simple
+
+[blinkshift]
+type = Effect
+effecttype = Blink|
+data = UpShift
+blinkspeed = 150.000000
+
+[digidashbackground_0_0_476]
+type = Static
+mode = 0
+xpos = 0.000000
+ypos = 0.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Digidashbackground
+
+[digidashspeedtempbackground_144_4_754]
+type = Static
+mode = 0
+xpos = 144.000000
+ypos = 4.000000
+scale = 1.000000
+rotation = 0.000000
+colour = 2e000000
+texture = DigidashSpeedTempBackground
+
+[fontdigital7_speedkph_306_7_884]
+type = Number
+data = SpeedKPH
+mode = 0
+xpos = 306.000000
+ypos = 7.899997
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+font = FontDigital7
+format = Whole
+justification = Left
+prefixenabled = false
+suffixenabled = false
+
+[fontdigital7_coolanttemperaturec_146_7_181]
+type = Number
+data = CoolantTemperatureC
+mode = 0
+xpos = 146.600098
+ypos = 7.099999
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+font = FontDigital7
+format = Whole
+justification = Left
+prefixenabled = false
+suffixenabled = false
+
+[c_276_4_394]
+type = Static
+mode = 0
+xpos = 276.000000
+ypos = 4.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = C
+
+[kph_403_6_291]
+type = Static
+mode = 0
+xpos = 403.000000
+ypos = 6.000001
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = KPH
+
+[digidashgearback_17_9_390]
+type = Static
+mode = 0
+xpos = 17.100029
+ypos = 9.800001
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashGearBack
+
+[digidashgearbackon_upshift_17_9_113]
+type = Colour
+data = UpShift
+mode = 0
+xpos = 17.399998
+ypos = 9.400002
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashGearBackOn
+value0 = -600.000000
+colour0 = ff00ff64
+value1 = -400.000000
+colour1 = ff00ff64
+value2 = -399.989990
+colour2 = ffff9000
+value3 = -200.000000
+colour3 = ffff9000
+value4 = -199.990005
+colour4 = ffc20000
+
+[gearr_gear_45_13_506]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = GearR
+equal = 0
+
+[gearn_gear_45_13_624]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = GearN
+equal = 1
+
+[gear1_gear_45_13_89]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear1
+equal = 2
+
+[gear2_gear_45_13_327]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear2
+equal = 3
+
+[gear3_gear_45_13_600]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear3
+equal = 4
+
+[gear4_gear_45_13_510]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear4
+equal = 5
+
+[gear5_gear_45_13_171]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear5
+equal = 6
+
+[gear6_gear_45_13_850]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear6
+equal = 7
+
+[digidashrpmchevron_rpmpercent_144_66_437]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 144.900055
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 9.000000
+
+[digidashrpmchevron_rpmpercent_156_66_459]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 156.600769
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 12.500000
+
+[digidashrpmchevron_rpmpercent_168_66_888]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 168.601501
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 16.000000
+
+[digidashrpmchevron_rpmpercent_180_66_791]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 180.502228
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 19.500000
+
+[digidashrpmchevron_rpmpercent_192_66_26]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 192.102936
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 23.000000
+
+[digidashrpmchevron_rpmpercent_203_66_891]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 203.903656
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 26.500000
+
+[digidashrpmchevron_rpmpercent_216_66_179]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 216.004395
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 30.000000
+
+[digidashrpmchevron_rpmpercent_228_66_726]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 228.005127
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 33.500000
+
+[digidashrpmchevron_rpmpercent_240_66_428]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 240.005859
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 37.000000
+
+[digidashrpmchevron_rpmpercent_251_66_829]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 251.906586
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 40.500000
+
+[digidashrpmchevron_rpmpercent_264_66_36]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 264.107330
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 44.000000
+
+[digidashrpmchevron_rpmpercent_276_66_367]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 276.108063
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 47.500000
+
+[digidashrpmchevron_rpmpercent_287_66_776]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 287.808777
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 51.000000
+
+[digidashrpmchevron_rpmpercent_299_66_252]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 299.709503
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 54.500000
+
+[digidashrpmchevron_rpmpercent_311_66_619]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 311.910248
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 58.000000
+
+[digidashrpmchevron_rpmpercent_323_66_317]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 323.810974
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 61.500000
+
+[digidashrpmchevron_rpmpercent_335_66_881]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 335.511688
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 65.000000
+
+[digidashrpmchevron_rpmpercent_347_66_79]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 347.412415
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 68.500000
+
+[digidashrpmchevron_rpmpercent_359_66_704]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 359.613159
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 72.000000
+
+[digidashrpmchevron_rpmpercent_371_66_569]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 371.413879
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 75.500000
+
+[digidashrpmchevron_rpmpercent_383_66_336]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 383.314606
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 79.000000
+
+[digidashrpmchevron_rpmpercent_395_66_216]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 395.115326
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 82.500000
+
+[digidashrpmchevron_rpmpercent_407_66_807]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 407.316071
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 86.000000
+
+[digidashrpmchevron_rpmpercent_419_66_217]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 419.816833
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 89.500000
+
+[digidashrpmchevron_rpmpercent_432_66_360]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 432.417603
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 93.000000
+
+[digidashrpmchevron_rpmpercent_444_66_651]
+type = Simple
+data = RPMPercent
+mode = 0
+xpos = 444.718353
+ypos = 66.000000
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashRPMChevron
+threshold = 96.500000

@@ -1,0 +1,140 @@
+[main]
+author = Towerbrah
+atlas = textures/DefaultStyleAtlas.ini
+description = Digidash with RPM, Speed and Coolant Temp
+autohidewhennodamage = false
+autohidetime = 5.000000
+type = simple
+
+[blinkshift]
+type = Effect
+effecttype = Blink|
+data = UpShift
+blinkspeed = 150.000000
+
+[digidashgearback_17_9_390]
+type = Static
+mode = 0
+xpos = 17.100029
+ypos = 9.800001
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashGearBack
+
+[digidashgearbackon_upshift_17_9_113]
+type = Colour
+data = UpShift
+mode = 0
+xpos = 17.399998
+ypos = 9.400002
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = DigidashGearBackOn
+value0 = -600.000000
+colour0 = ff00ff64
+value1 = -400.000000
+colour1 = ff00ff64
+value2 = -399.989990
+colour2 = ffff9000
+value3 = -200.000000
+colour3 = ffff9000
+value4 = -199.990005
+colour4 = ffc20000
+
+[gearr_gear_45_13_506]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = GearR
+equal = 0
+
+[gearn_gear_45_13_624]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = GearN
+equal = 1
+
+[gear1_gear_45_13_89]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear1
+equal = 2
+
+[gear2_gear_45_13_327]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear2
+equal = 3
+
+[gear3_gear_45_13_600]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear3
+equal = 4
+
+[gear4_gear_45_13_510]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear4
+equal = 5
+
+[gear5_gear_45_13_171]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear5
+equal = 6
+
+[gear6_gear_45_13_850]
+type = Simple
+data = Gear
+mode = 0
+xpos = 45.300011
+ypos = 13.100004
+scale = 1.000000
+rotation = 0.000000
+colour = ffffffff
+texture = Gear6
+equal = 7
